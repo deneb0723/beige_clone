@@ -1,0 +1,52 @@
+@import "./reset";
+@import "./variables";
+
+body {
+  width: 100%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  text-transform: uppercase;
+  margin: 5px 20px;
+}
+
+.header .title {
+  grid-column: span 1;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.header .nav {
+  grid-column: span 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.nav li {
+  margin-right: 10px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li span {
+  font-size: 1.4rem;
+  margin-left: 3px;
+}
+
+.header .icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.icon div {
+  margin-left: 1vh;
+}
