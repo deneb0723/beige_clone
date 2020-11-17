@@ -1,1 +1,22 @@
 $pink: #dc625d;
+$yello: #e5c254;
+$green: #5e8b53;
+$orange: #ed8f4f;
+$remon: #e4c974;
+$lightGrey: grey;
+
+footer .top {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+footer .bottom div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
